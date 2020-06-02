@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  background: orange;
+  border: 2px solid black;
+  flex: 1 1 300px;
+  margin: 0.5rem;
+}
+h3{
+  width: 150px;
+  align-self: flex-end;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background: yellow;
+  margin-bottom: 1rem;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+h1{
+  text-align: center;
+  color: brown;
+}
